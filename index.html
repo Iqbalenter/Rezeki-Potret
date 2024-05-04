@@ -22,13 +22,13 @@
     <header>
             <nav>
                 <div class="navs">
-                    <img src="assets/logo.png" width="200px">
+                    <img src="assets/logo.png" width="20%">
                     <div class="nav-links">
                         <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">gallery</a>
-                        <a href="#">product</a>
-                        <a href="#">contact</a>
+                        <a href="#about">About</a>
+                        <a href="#gallery">gallery</a>
+                        <a href="#product">product</a>
+                        <a href="#contact">contact</a>
                     </div>
                 </div>
             </nav>
@@ -54,44 +54,187 @@
     </header>
 
     <main>
-        <div class="about">
+        <div class="about" id="about">
             <div class="about-text">
                 <h2>Untuk setiap kegiatan acara, Anda membutuhkan</h2>
                 <h2>Seorang Yang dapat membantu Anda.</h2>
 
             </div>
+            
             <div class="counter-wrapper">
                 <div class="counter">
-                    <div class="count">0</div>
+                    <h1 class="count" data-target="1234">0</h1>
                     <p>Client</p>
                 </div>
                 <div class="counter">
-                    <div class="count">0</div>
+                    <h1 class="count" data-target="1344">0</h1>
                     <p>Experience</p>
                 </div>
                 <div class="counter">
-                    <div class="count">0</div>
+                    <h1 class="count" data-target="1134">0</h1>
                     <p>Success Claim</p>
                 </div>
             </div>
             
         </div>
 
-        <div class="gallery">
+            <div class="row">
+                <div class="about-advanced-text">
+                    <h3>PROGRAM JASA FOTOGRAFI</h3>
+                    <p>Sebagai klien, dalam memilih fotografer, perlu memperhatikan reputasi, pengalaman, serta jenis layanan fotografi yang ditawarkan oleh fotografer tersebut. Hal ini penting untuk memastikan bahwa kita mendapatkan hasil foto yang sesuai dengan harapan dan kebutuhan kita.</p>
+                    <div class="about-advanced-text-list">
+                        <ul>
+                            <li>
+                                <p><img src="assets/right-arrow.png" width="40px">Peninjauan dan konsultasi mendalam mengenai gaya fotografi</p>
+                            </li>
+                            <li>
+                                <p><img src="assets/right-arrow.png" width="40px">Harga dan jangkauan layanan terbaik di Medan</p>
+                            </li>
+                            <li>
+                                <p><img src="assets/right-arrow.png" width="40px">Membantu Anda mempersiapkan momen yang tak terduga</p>
+                            </li>
+                            <li>
+                                <p><img src="assets/right-arrow.png" width="40px">Pemeriksaan teknis fotografi yang mendetail</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-advanced-image">
+                    <img src="assets/Profile.jpeg" width="300px"/>
+                </div>
+            </div>    
+        
+        <div class="row">
+            <div class="gallery" id="gallery">
+                <div class="gallery-text">
+                    <h4>Lihat Mereka yang telah mempercayai kami</h4>
+                    <h2>ACTIVITY GALLERY</h2>
+                    <p>You can explore our portfolio here, click to browse through our collections. You can view our daily projects and images that are distributed to numerous Wedding.</p>
+                </div>
 
+                <div class="photo-gallery">
+                    <div class="column">
+                        <div class="photo">
+                            <img src="assets/1.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/3.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/4.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="photo">
+                            <img src="assets/5.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/7.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/8.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="photo">
+                            <img src="assets/9.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/10.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/11.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="photo">
+                            <img src="assets/12.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/14.jpeg"/>
+                        </div>
+                        <div class="photo">
+                            <img src="assets/15.jpeg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="product">
+        <div class="row">
+            <div class="product" id="product">
+                <div class="product-text">
+                    <h4>Pelajari lebih lanjut untuk paket yang ingin kamu gunakan</h4>
+                    <h1>TERSEDIA PAKET</h1>
+                </div>
 
+                <div class="product-card">
+                    <div class="card" style="width: 20rem;">
+                            <img src="assets/14.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                                <img src="assets/15.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                                <img src="assets/5.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="contact">
+        <div class="row">
+            <div class="contact" id="contact">
+                <div class="contact-text">
+                    <h1>OUR CONTACT</h1>
+                </div>
 
+                <div class="contact-form">
+                    <form>
+                    <label id="email-text" for="email">Email</label><br>
+                    <input type="email" name="email" id="email" autocomplete="off" required><br>
+                    <label id="message-text" for="message">Input</label><br>
+                    <textarea name="message" id="message" rows="5" cols="52"></textarea><br>
+        
+                    <button>Send</button>
+                    </form>
+                </div>
+
+                <div class="contact-logo">
+                    <div class="logo">
+                        <img src="assets/instagram.png">
+                        <p>Our Instagram</p>
+                    </div>
+                    <div class="logo">
+                        <img src="assets/facebook.png">
+                        <p>Our Facebook</p>
+                    </div>
+                    <div class="logo">
+                        <img src="assets/whatsapp.png">
+                        <p>Our Whatsapp</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <h1>Rezeki Potret</h1>
+        <img src="assets/logo.png">
+        <p>copyright © 2024. All Rights Reversed.</p>
     </footer>
 
 
