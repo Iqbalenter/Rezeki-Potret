@@ -20,18 +20,20 @@
 </head>
 <body>
     <header>
-            <nav>
-                <div class="navs">
-                    <img src="assets/logo.png" width="20%">
-                    <div class="nav-links">
-                        <a href="#">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#gallery">gallery</a>
-                        <a href="#product">product</a>
-                        <a href="#contact">contact</a>
+            <div class="row">
+                <nav>
+                    <div class="navs" id="navs">
+                        <img src="assets/logo.png" width="20%">
+                        <div class="nav-links">
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#gallery">gallery</a>
+                            <a href="#product">product</a>
+                            <a href="#contact">contact</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
             <br>
             <br>
             <br>    
@@ -44,7 +46,7 @@
                     <h3>Take A Moment</h3>
                     <h2>Your Special Day</h2>
                     <p>Berpengalaman selama 5 Tahun sebagai Photographer Terpercaya </p>
-                    <button>Hubungi Kami</button>
+                    <button onclick="Callus()">Hubungi Kami</button>
                 </div>
                 <div class="headerImage">   
                     <img src="assets/2.jpeg" width="350px">
@@ -215,15 +217,15 @@
                 </div>
 
                 <div class="contact-logo">
-                    <div class="logo">
+                    <div class="logo" onclick="Callus()">
                         <img src="assets/instagram.png">
                         <p>Our Instagram</p>
                     </div>
-                    <div class="logo">
+                    <div class="logo" onclick="facebook()">
                         <img src="assets/facebook.png">
                         <p>Our Facebook</p>
                     </div>
-                    <div class="logo">
+                    <div class="logo" onclick="whatsapp()">
                         <img src="assets/whatsapp.png">
                         <p>Our Whatsapp</p>
                     </div>
